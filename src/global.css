@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #010314;
+}
+@keyframes signature {
+  0% { stroke-dashoffset: 1000; }
+  100% { stroke-dashoffset: 0; }
+}
+
+.animate-signature {
+  animation: signature 2s forwards;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.animate-draw path {
+  stroke-dasharray: 1000; /* should match total path length */
+  stroke-dashoffset: 1000;
+  animation: draw 2s ease forwards;
+}
