@@ -401,7 +401,8 @@ const Hero = () => {
 // --- About ---
 
 const About = () => {
-  const fullText = `A React.js Developer passionate about crafting responsive, user-friendly web applications. I enjoy transforming ideas into smooth, functional digital experiences using clean, efficient code. Constantly improving my skills, I explore modern frontend tools and build impactful projects that solve real problems.`;
+  const fullText = `A  React.js Developer passionate about crafting responsive, user-friendly web applications. I enjoy transforming ideas into smooth, functional digital experiences using clean, efficient code. 
+  Constantly improving my skills,I explore modern frontend tools and build impactful projects that solve real problems.`;
   const [displayedText, setDisplayedText] = useState("");
 
   useEffect(() => {
